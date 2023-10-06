@@ -6,6 +6,7 @@ const handleSubmit = (e) =>{
     e.preventDefault()
 
     localStorage.setItem('usuario', input.value)
+    window.location = 'pages/corretor.html'
 }
 
 form.addEventListener('submit', handleSubmit)
