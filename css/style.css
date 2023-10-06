@@ -1,18 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+*{
+    color: black;
+}
+body{
+    background: linear-gradient(to right top, #1b0537, #272c64, #2b5393, #247dc0, #12a9eb);
+    min-height:80vh;
     
 }
 
-body{
-    background: linear-gradient(to right top, #1b0537, #272c64, #2b5393, #247dc0, #12a9eb);
-}
 
 .container{
     max-width: 50rem;
@@ -45,9 +39,14 @@ section#menu{
     display: flex;
     flex-direction: column;
     margin-left: 2.5rem;
-    padding-top: 7rem;
+    padding-top: 6rem;
     text-align: center;
     font-size: 1.5rem;
+    
+}
+
+#menu .content-form form legend{
+    margin-bottom: 2rem;
     
 }
 
@@ -68,6 +67,7 @@ section#menu{
 }
 
 #menu .content-form form span{
+    cursor: pointer;
     font-size: 0.7rem;
 }
 

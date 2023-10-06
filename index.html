@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
 
     <title>Saúde Digital</title>
 </head>
@@ -15,16 +17,17 @@
                 <img src="img/Saúde_digital.png" alt="">
             </div>
             <div class="content-form">
-                <form>
+                <form class="form">
                     <legend>Login</legend>
-                    <input type="email" name="email" placeholder=" Email">
+                    <input type="text" name="usuario" class="login_usuario" placeholder="Usuario">
                     <input type="password" name="pass" placeholder="Senha">
-                    <button>Login</button>
+                    <button type="submit"><a href="pages/corretor.html" class="login_btn">Entrar</a></button>
                     <span>Esqueceu Usuário / Senha?</span>
-                    <span id="criar-conta">Cria uma conta</span>
+                    <span id="criar-conta">Criar uma conta</span>
                 </form>
             </div>
         </div>
         </section>
 </body>
+<script src="js/index.js"></script>
 </html>
